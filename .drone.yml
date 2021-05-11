@@ -6,6 +6,6 @@ steps:
 - name: test
   image: golang:1.16
   commands:
-  - go mod init
+  - go mod init github.com/leo0917john/ci_test
   - go build
   - go test
